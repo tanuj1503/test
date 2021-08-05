@@ -1,0 +1,727 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.whole-page{
+    position: relative;
+    width: 100%;
+    height: 650vh;
+    background-color: rgba(11, 29, 38, 1);;
+}
+.hero-page{
+    position: relative;
+    top: 0rem;
+    width: 100%;
+    height: 180vh;
+    background-color: rgba(11, 29, 38, 1);
+    color: white;
+}
+.hero-page .bg-container .fade{
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(to top left, rgba(11, 29, 38, 0), rgba(11, 29, 38, 1));
+    width: 100%;
+    height: 100%;
+}
+.hero-page .hg{
+    position: absolute;
+    width: 100%;
+}
+.hero-page .mg{
+    position: absolute;
+    top:20%;
+    width: 100%;
+    height: 900px;
+}
+.hero-page .vg{
+    position: absolute;
+    top:46%;
+    width: 100%;
+}
+.hero-page .logo{
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    font-size: 22px;
+}
+.hero-page nav{
+    position: absolute;
+    top: 1.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+.hero-page nav ul{
+    list-style: none;
+    display: flex;
+}
+.hero-page nav ul li{
+    margin-right: 3rem;
+    font-weight: 600;
+}
+.hero-page nav ul li:hover{
+    color: rgba(251, 215, 132, 1);
+}
+.hero-page .account{
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    display: flex;
+    font-family: sans-serif;
+}
+.hero-page .account i{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.hero-page .p2-container{
+    position: absolute;
+    top: 15%;
+    left: 27%;
+}
+.hero-page .p2-container .p2{
+    font-size: 60px;
+    line-height: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-page .flex1{
+    position: absolute;
+    display: flex;
+    top: -1rem;
+    font-family: sans-serif;
+    font-size:14px;
+    color: rgba(251, 215, 132, 1);
+}
+.hero-page .line1{
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    background-color: rgba(251, 215, 132, 1);
+    width: 50px;
+    height: 1px;
+}
+.color1{
+    color: rgba(251, 215, 132, 1)
+}
+.download{
+    position: absolute;
+    top: 35%;
+    left: 27%;
+    width: 220px;
+    background-color: rgba(11, 29, 38, 1);
+    font-family: sans-serif;
+    color: rgba(251, 215, 132, 1);
+    padding: 0rem;
+    border-radius: 28px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.download:hover{
+    background-color: rgba(11, 29, 38, 0.8);
+}
+.follow-us{
+    position: absolute;
+    top: 20%;
+    left: 3rem;
+}
+.follow-us .follow{
+    position: absolute;
+    top: -2.8rem;
+    left: -0.9rem;
+    transform: rotate(90deg);
+}
+.login-image{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+.login-image .login-img1{
+    position: absolute;
+    top: 8rem;
+    left: 7rem;
+    width: 250px;
+}
+.login-image .login-img2{
+    position: absolute;
+    width: 300px;
+}
+@media (min-width:358px) and (max-width:412px) {
+    nav,.hero-page .account{
+        display: none;
+    }
+    .hero-page .hg{
+        height: 400px;
+    }
+    .hero-page .mg{
+        height: 520px;
+    }
+    .hero-page .vg{
+        margin-top: -6rem;
+        height: 460px;
+    }
+    .hero-page .logo{
+        position: absolute;
+        left: 1rem;
+    }
+    .hero-page .follow-us{
+        position: absolute;
+        left: 1rem;
+    }
+    .hero-page .p2-container{
+        position: absolute;
+        left: 4rem;
+    }
+    .hero-page .p2-container .flex1 .p1{
+        margin-top: 1rem;
+        font-size: 10px;
+    }
+    .hero-page .p2-container .p2{
+        font-size: 32px;
+    }
+    .hero-page .download{
+        position: absolute;
+        top: 21rem;
+        left: 4rem;
+    }
+    .hero-page .login-image{
+        position: absolute;
+        left: 1rem;
+    }
+    .hero-page .login-image{
+        position: absolute;
+        top: 26rem;left: 4rem;
+    }
+    .hero-page .login-img1{
+        width: 150px;
+        margin-top: -2rem;
+    }
+    .hero-page .login-img2{
+        width: 200px;
+    }
+}
+.section1{
+    position: relative;
+    top: 0rem;
+    width: 100%;
+    height: 100vh;    
+    background-color: rgba(11, 29, 38, 1);
+    color: white;
+}
+.section1 .blur{
+    position: absolute;
+    width: 100%;
+    top: -23rem;
+}
+.equipment{
+    position: absolute;
+    top: -5rem;
+    left: 7rem;
+    width: 200px;
+    height: 150px;
+}
+.section1 .flex2{
+    position: absolute;
+    display: flex;
+    top: -3rem;
+    left: 10rem;
+    font-family: sans-serif;
+    font-size:14px;
+    color: rgba(251, 215, 132, 1);
+}
+.section1 .line1{
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    background-color: rgba(251, 215, 132, 1);
+    width: 50px;
+    height: 1px;
+}
+.section1 .para1{
+    position: absolute;
+    top: 3.8rem;
+    left: 8rem;
+    width: 550px;
+    font-size: 35px;
+    font-family: 'poppins';
+}
+.section1 .para1 p{
+    line-height: 8px;
+}
+.section1 .para2{
+    position: absolute;
+    top: 12.4rem;
+    left: 9rem;
+    width: 450px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.3rem;
+}
+.section1 .para3{
+    position: absolute;
+    top: 18rem;
+    left: 8rem;
+    display: flex;
+    color: rgba(251, 215, 132, 1);
+}
+.section1 .para3 i{
+    margin-top: 1.1rem;
+    margin-left: 1rem;
+}
+.section1 .mobile-img1{
+    position: absolute;
+    width: 500px;
+    top: 2rem;
+    left: 50%;
+}
+@media (min-width:358px) and (max-width:412px){
+    .section1 .equipment{
+        position: absolute;
+        top: -19rem;
+        left: 1rem;
+        width: 150px;
+        height: 100px;
+    }
+    .section1 .flex2{
+        position: absolute;
+        top: -19rem;
+    }
+    .section1 .para1{
+        position: absolute;
+        top: -13rem;
+        left: 2rem;
+        font-size: 20px;
+        width: 300px;
+    }
+    .section1 .para2{
+        position: absolute;
+        top: -7rem;
+        left: 2rem;
+        width: 320px;
+        font-size: 11px;
+        line-height: 1rem;
+    }
+    .section1 .para3{
+        position: absolute;
+        top: -2rem;
+        left: 2rem;
+    }
+    .section1 .mobile-img1{
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        width: 340px;
+    }
+}
+.section2{
+    position: relative;
+    top: 0rem;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(11, 29, 38, 1);
+    color: white;
+}
+.section2 .mobile-images{
+    position: absolute;
+    top:-3rem;
+    left: -6rem;
+    margin-left: 14%;
+    display: flex;
+}
+.mobile-images .mobile-img3{
+    margin-top: 8.3rem;
+    margin-left: 13rem;
+    width: 220px;
+    height: 340px;
+}
+.mobile-images .mobile-img4{
+    position: absolute;
+    top: 4.6rem;
+    left: 8rem;
+    width: 240px;
+    height: 400px;
+}
+.mobile-images .mobile-img5{
+    position: absolute;
+    left: 0.2rem;
+    width: 280px;
+    height: 480px;
+}
+.section2 .equipment1{
+    position: absolute;
+    left: 50%;
+    width: 180px;
+    height: 120px;
+}
+.section2 .flex4{
+    position: absolute;
+    display: flex;
+    top: 4rem;
+    left: 60%;
+    font-family: sans-serif;
+    font-size:14px;
+    color: rgba(251, 215, 132, 1);
+}
+.section2 .line4{
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    background-color: rgba(251, 215, 132, 1);
+    width: 50px;
+    height: 1px;
+}
+.section2 .para4{
+    position: absolute;
+    top: 6rem;
+    left: 51%;
+    width: 250px;
+    font-size: 35px;
+    font-family: 'poppins';
+    line-height: 2.8rem;
+}
+.section2 .para5{
+    position: absolute;
+    width: 450px;
+    font-family: sans-serif;
+    top: 30%;
+    left: 51%;
+}
+.section2 .para6{
+    position: absolute;
+    top: 23rem;
+    left: 51%;
+    display: flex;
+    color: rgba(251, 215, 132, 1);
+}
+.section2 .para6 i{
+    margin-top: 1.1rem;
+    margin-left: 1rem;
+}
+@media (min-width:358px) and (max-width:412px){
+    .section2 .equipment1{
+        position: absolute;
+        top: -13rem;
+        left: 1rem;
+        width: 150px;
+        height: 90px;
+    }
+    .section2 .flex4{
+        position: absolute;
+        top: -10rem;
+        left: 3rem;
+    }
+    .section2 .para4{
+        position: absolute;
+        left: 1.8rem;
+        top: -9rem;
+    }
+    .section2 .para5{
+        position: absolute;
+        left: 1.8rem;
+        top: -2rem;
+        width: 300px;
+        font-size: 10px;
+        line-height: 1rem;
+    }
+    .section2 .para6{
+        position: absolute;
+        left: 1.8rem;
+        top: 5rem;
+    }
+    .section2 .mobile-images{
+        position: absolute;
+        top: 8rem;
+        left: -2.8rem;
+    }
+    .section2 .mobile-images .mobile-img3{
+        margin-top: 8.3rem;
+        margin-left: 9rem;
+        width: 160px;
+        height: 300px;
+    }
+    .section2 .mobile-images .mobile-img4{
+        position: absolute;
+        top: 4.6rem;
+        left: 3rem;
+        width: 200px;
+        height: 320px;
+    }
+    .section2 .mobile-images .mobile-img5{
+        position: absolute;
+        left: 0.2rem;
+        width: 200px;
+        height: 340px;
+    }
+}
+.section3{
+    position: relative;
+    top: 0rem;
+    width: 100%;
+    height: 120vh;
+    background-color: rgba(11, 29, 38, 1);
+    color: white;
+}
+.section3 .equipment2{
+    position: absolute;
+    top: -8rem;
+    left: 6.8rem;
+    width: 180px;
+    height: 120px;
+}
+.section3 .flex5{
+    position: absolute;
+    display: flex;
+    top: -4.6rem;
+    left: 10%;
+    font-family: sans-serif;
+    font-size:14px;
+    color: rgba(251, 215, 132, 1);
+}
+.section3 .line5{
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    background-color: rgba(251, 215, 132, 1);
+    width: 50px;
+    height: 1px;
+}
+.section3 .para7{
+    position: absolute;
+    top: -2.7rem;
+    left: 8rem;
+    width: 250px;
+    font-size: 35px;
+    font-family: 'poppins';
+    line-height: 2.8rem;
+}
+.section3 .para8{
+    position: absolute;
+    width: 450px;
+    font-family: sans-serif;
+    top: 4rem;
+    left: 8rem;
+}
+.section3 .para9{
+    position: absolute;
+    top: 13rem;
+    left: 8rem;
+    display: flex;
+    color: rgba(251, 215, 132, 1);
+}
+.section3 .para9 i{
+    margin-top: 1.1rem;
+    margin-left: 1rem;
+}
+.section3 .mobile-images2{
+    position: absolute;
+    top: -10rem;
+    left: 50%;
+}
+.section3 .img6{
+    width: 300px;
+    height: 480px;
+}
+.section3 .img7{
+    position: absolute;
+    top: 2rem;
+    left: 6rem;
+    width: 300px;
+    height: 480px;
+}
+.section3 .rating{
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translateX(-59%);
+}
+.section3 .rating img{
+    width: 300px;
+}
+.stars{
+    position: absolute;
+    display: flex;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.stars img{
+    width: 140px;
+    opacity: 0.4;
+}
+@media (min-width:358px) and (max-width:412px){
+    .section3{       
+        height: 150vh;
+    }
+    .section3 .equipment2{
+        position: absolute;
+        top: 0rem;
+        left: 1rem;
+        width: 150px;
+        height: 90px;
+    }
+    .section3 .flex5{
+        position: absolute;
+        top: 2rem;
+        left: 3rem;
+    }
+    .section3 .para7{
+        position: absolute;
+        left: 1.8rem;
+        top: 3.6rem;
+    }
+    .section3 .para8{
+        position: absolute;
+        left: 1.8rem;
+        top: 11rem;
+        width: 300px;
+        font-size: 10px;
+        line-height: 1rem;
+    }
+    .section3 .para9{
+        position: absolute;
+        left: 1.8rem;
+        top: 17rem;
+    }
+    .section3 .mobile-images2{
+        position: absolute;
+        top: 20rem;
+        left: 1rem;
+    }
+    .section3 .mobile-images2 .img6{
+        width: 180px;
+        height: 290px;
+    }
+    .section3 .img7{
+        position: absolute;
+        top: 1rem;
+        left: 6rem;
+        width: 180px;
+        height: 290px;
+    }
+    .section3 .rating{
+        position: absolute;
+        margin-top: 4rem;
+        left: 57%;
+    }
+    .section3 .rating img{
+        width: 250px;
+        height: 120px;
+        margin-top: 3rem;
+    }
+    .section3 .stars img{
+        margin-top: 4rem;
+        width: 70px;
+    }
+}
+.section4{
+    position: relative;
+    top: 0rem;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(11, 29, 38, 1);
+    color: white;
+}
+.section4 .google-play{
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section4 .google-play img{
+    width: 550px;
+}
+.section4 .soon{
+    position: absolute;
+    top: 22rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: sans-serif;
+    font-size: 90px;
+}
+.footer{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    /* background-color: rgb(109, 95, 65); */
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .part1,.part2,.part3{
+    margin-top: 5rem;
+}
+.pointer{
+    cursor: pointer;
+}
+.pointer a{
+    color: white;
+    text-decoration: none;
+}
+.footer h3{
+    margin-bottom: 1.6rem;
+}
+.footer .part1 p{
+    width: 280px;
+}
+.footer .copyright{
+    margin-top: 8rem;
+}
+.footer .part2{
+    margin-top: 7rem;
+    line-height: 2rem;
+}
+.footer .part3 h3{
+    color: rgba(251, 215, 132, 1);
+}
+@media (min-width:358px) and (max-width:412px){
+    .whole-page{
+        background-color: rgba(11, 29, 38, 1);
+        height: 680vh;
+    }
+    .section4{
+        height: 80vh;
+    }
+    .section4 .google-play{
+        position: absolute;
+        left: 50%;
+    }
+    .section4 .google-play img{
+        width: 350px;
+        height: 90x;
+    }
+    .section4 .soon{
+        width: 300px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .section4 .footer{
+        position: absolute;
+        height: 0;
+    }
+
+    .section4 .footer .part1{
+        position: absolute;
+        top: 9rem;
+        left: 1rem;
+        line-height: 1.2rem;
+    }
+    .section4 .footer .part1 p{
+        width: 200px;
+    }
+    .section4 .footer .part1 .copyright{
+        margin-top: 3rem;
+    }
+    .section4 .footer .part2{
+        position: absolute;
+        top: -3rem;
+        left: 1rem;
+        line-height: 1rem;
+    }
+    .section4 .footer .part3{
+        position: absolute;
+        top: -1.6rem;
+        left: 15rem;
+    }
+}
+
+}
