@@ -103,14 +103,14 @@ nav p a{
 }
 .hero-container .mobile-images1 .mob-img1{
     position: absolute;
-    width: clamp(100px, 40vw, 900px);
+    width: clamp(100px, 35vw, 900px);
     height: clamp(200px, 68vw, 1080px);
     top: 1.2rem;
     left: max(4rem);
 }
 .hero-container .mobile-images1 .mob-img2{
     position: absolute;
-    width: clamp(60px, 22vw, 350px);
+    width: clamp(60px, 19vw, 350px);
     height: clamp(6px, 42vw, 600px);
 }
 .hero-container .blur{
@@ -174,7 +174,7 @@ nav p a{
 .container1 .img-content1{
     width: clamp(200px, 45vw, 600px);
     margin-top: 3rem;
-    margin-left: 10%;
+    margin-left: 11%;
 }
 .container1 .img-content1 img{
     /* width: clamp(200px, 45vw, 600px); */
@@ -192,35 +192,33 @@ nav p a{
 }
 .container2 .img-content2{
     position: relative;
+    margin-top: 3rem;
     width: clamp(300px, 47vw, 650px);
-    /* background-color: red; */
 }
 .container2 .img-content2 .policy1{
     height: clamp(200px, 55vw, 500px);
-    margin-top: -100%;
+    margin-top: -120%;
     margin-left: 14%;
 }
 .container2 .img-content2 .policy2{
-    margin-top:4rem;
+    margin-top:6%;
     margin-left: 25%;
     height: clamp(190px, 48vw, 450px);
 }
 .container2 .text-content2{
     position: relative;
-    margin-right: 10rem;
-    width: clamp(40%, 50vw, 40%);
-    width: 452px;
-    /* background-color: grey; */
+    margin-right: 6rem;
+    width: clamp(25%, 43vw, 50%);
 }
 .container2 .text-content2 .equipment2{
     width: clamp(80px, 25vw, 200px);
     margin-top: 5%;
-    margin-left: 12%;
+    margin-left: 13%;
 }
 .container2 .text-content2 .flex3{
-    top: 18%;
+    top: 23%;
     position: absolute;
-    left: 21%;
+    left: 24%;
     display: flex;
     align-items: center;
 }
@@ -242,17 +240,17 @@ nav p a{
 }
 .container2 .text-content2 .text-content2-p3{
     margin-top: 0rem;
-    margin-left: 14%;
+    margin-left: 20%;
     font-family: 'poppins';
     color: rgba(255, 255, 255,0.6);
     font-size: clamp(2rem, 3.2vw, 3rem);
 }
 .container2 .text-content2 .text-content2-p4{
-    margin-left: 14%;
+    margin-left: 20%;
     font-family: sans-serif;
     color: hsl(0, 0%, 100%);
     font-size: clamp(8px, 2vw, 16px);
-    width: clamp(200px, 34vw, 800px);
+    width: clamp(200px, 38vw, 800px);
     line-height: 1.6rem;
 }
 
